@@ -1,0 +1,10 @@
+.container {
+    height: 100px;
+    background: lightblue;
+    padding: 20px;
+}
+
+.sticky{
+    position: sticky;
+    top: 10px;
+}

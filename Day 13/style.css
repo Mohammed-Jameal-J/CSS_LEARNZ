@@ -1,0 +1,28 @@
+.item {
+    background-color: lightblue;
+    padding: 20px 10px;
+    margin: 2px;
+    flex: 1;
+}
+
+.container{
+    display: flex;
+}
+.item3{
+    order: 6;
+}
+.item4{
+    order: 5;
+}
+.item2{
+    order: 4;
+}
+.item1{
+    order: 3;
+}
+.item5{
+    order: 2;
+}
+.item6{
+    order: 1;
+}

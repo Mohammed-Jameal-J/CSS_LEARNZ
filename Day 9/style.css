@@ -1,0 +1,23 @@
+
+.container {
+    background: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center; /* only works with multi-line flex containers */
+    align-items: flex-end; /* default is stretch */ /* cross axis alignment */
+    /* justify-content: center; */ /*main axis alignment */
+}
+
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+#item3 {
+    flex-grow: 3;
+    text-align: center; /* overrides align-items for this item only */
+}

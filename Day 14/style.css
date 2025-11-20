@@ -1,0 +1,21 @@
+
+.container {
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 80px auto;
+    transition: transform 1s, background 1s, padding 1s ;
+}
+
+.container:hover {
+    transform: rotate(45deg) scale(1.2);
+    background: lightgreen;
+    padding: 100px;
+}
+
+/* tranform value
+transform:translate(25px, 50px); //move right 25px and down 50px
+transform:scale(1.5); //increase size by 1.5 times
+transform:rotate(30deg); //rotate by 30 degrees
+transform:skew(20deg, 10deg); //skew by 20 degrees on X-axis and 10 degrees on Y-axis */
